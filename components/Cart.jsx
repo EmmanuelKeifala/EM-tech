@@ -106,7 +106,7 @@ const Cart = () => {
               <h3>Le {totalPrice}</h3>
             </div>
             <div className="btn-container">
-              <button type="button" className="btn" onClick={()=>prompt("Thanks But coming very soon")}>
+              <button type="button" className="btn" onClick={()=>alert("Thanks But coming very soon")}>
                 Pay with Orange Money
               </button>
             </div>
